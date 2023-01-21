@@ -21,7 +21,7 @@
         const convertToBase64 = (configArray) => {
             let encryptedText = "";
             configArray.forEach(config => {
-                encryptedText += btoa(config);
+                encryptedText += btoa(config) +"\n";
             });
             return encryptedText;
         };
