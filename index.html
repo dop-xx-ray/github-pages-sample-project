@@ -7,9 +7,14 @@
 <body>
     <pre style="word-wrap: break-word; white-space: pre-wrap;" id="text">
         vmess://ewogICAgImFkZCI6ICJ0Z2p1Lm9yZyIsCiAgICAiYWlkIjogIjAiLAogICAgImhvc3QiOiAiY2RuLmxvdmVkb3RhMi50ayIsCiAgICAiaWQiOiAiMWNiMTkwNTItMTEwZi00NjRjLWNlZWQtZGZlZjBlODI2ZDBmIiwKICAgICJuZXQiOiAid3MiLAogICAgInBhdGgiOiAiLyIsCiAgICAicG9ydCI6ICI4ODgwIiwKICAgICJwcyI6ICJjbG91ZGZsYXJlIHZtZXNzICBodHRwIHRnanUiLAogICAgInNjeSI6ICJhdXRvIiwKICAgICJzbmkiOiAiIiwKICAgICJ0bHMiOiAiIiwKICAgICJ0eXBlIjogIm5vbmUiLAogICAgInYiOiAiMiIKfQo=
-        vmess://ewogICAgImFkZCI6ICJzbmFwcGZvb2QuaXIiLAogICAgImFpZCI6ICIwIiwKICAgICJob3N0IjogImlyLmluZGlhbmNhdHNsb3ZlLm1sIiwKICAgICJpZCI6ICJjYzEwMjMyNi01NTgyLTQzMjEtYTRjYi1hMzNmOTQ4NzQ3MDkiLAogICAgIm5ldCI6ICJ3cyIsCiAgICAicGF0aCI6ICIvIiwKICAgICJwb3J0IjogIjgwODAiLAogICAgInBzIjogIkBtIHZtZXNzIG1hbW1hZCBzbmFwIiwKICAgICJzY3kiOiAiYXV0byIsCiAgICAic25pIjogIiIsCiAgICAidGxzIjogIiIsCiAgICAidHlwZSI6ICIiLAogICAgInYiOiAiMiIKfQo=
-        vmess://ewogICAgImFkZCI6ICJzbmFwcGZvb2QuaXIiLAogICAgImFpZCI6ICIwIiwKICAgICJob3N0IjogImlyLmluZGlhbmNhdHNsb3ZlLm1sIiwKICAgICJpZCI6ICJjYzEwMjMyNi01NTgyLTQzMjEtYTRjYi1hMzNmOTQ4NzQ3MDkiLAogICAgIm5ldCI6ICJ3cyIsCiAgICAicGF0aCI6ICIvIiwKICAgICJwb3J0IjogIjgwODAiLAogICAgInBzIjogIkBtIHZtZXNzIG1hbW1hZCBzbmFwIiwKICAgICJzY3kiOiAiYXV0byIsCiAgICAic25pIjogIiIsCiAgICAidGxzIjogIiIsCiAgICAidHlwZSI6ICIiLAogICAgInYiOiAiMiIKfQo=
     </pre>
+
+
+    <script>
+        let text = document.getElementById("text").innerHTML;
+
+        document.getElementById("text").innerHTML = btoa(text);
+    </script>
 </body>
 
 </html>
